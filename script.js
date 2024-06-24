@@ -56,7 +56,7 @@ renderCard(currentWords);
 
 document.querySelector('#total-word').textContent = currentWords.length;
 
-functiongetrandomCard(arr) {
+function getrandomCard(arr) {
     return arr[Math.floor(Mathrandom() * arr.length)];
 }
 
